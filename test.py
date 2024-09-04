@@ -14,7 +14,7 @@ class TangentTest(unittest.TestCase):
         self.driver = webdriver.Chrome(service=service)
         self.driver.maximize_window()
 
-    def test_navigation_and_form_submission(self):
+    def heading_comparison(self):
         driver = self.driver
         driver.get(TARGET_URL)
 
